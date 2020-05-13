@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="854.0" prefWidth="1217.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="clue.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="854.0" fitWidth="1217.0">
+         <image>
+            <Image url="@../../../../../Ambiente%20de%20Trabalho/e13a53f98a95025f3efe4b60b0fb5de6.jpg" />
+         </image>
+      </ImageView>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button ellipsisString="" layoutX="384.0" layoutY="71.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="43.0" />
+    </children>
+</AnchorPane>
