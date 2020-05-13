@@ -31,6 +31,7 @@ public class FXMLDocumentController implements Initializable {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
         System.out.println("Boas");
+        System.out.println("");
     }
    
     
