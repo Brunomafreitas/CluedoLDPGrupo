@@ -5,12 +5,17 @@
  */
 package clue;
 
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.image.ImageObserver;
+import java.awt.image.ImageProducer;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 
 /**
  *
@@ -18,6 +23,7 @@ import javafx.scene.control.Label;
  */
 public class FXMLDocumentController implements Initializable {
     
+    Image img;
     @FXML
     private Label label;
     
@@ -26,10 +32,19 @@ public class FXMLDocumentController implements Initializable {
         label.setText("Hello World!");
         System.out.println("Boas");
     }
+   
+    
+    
+
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }    
+
+
+        
+
+       
     
 }
