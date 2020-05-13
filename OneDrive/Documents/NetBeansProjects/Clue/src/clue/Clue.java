@@ -26,6 +26,7 @@ public class Clue extends Application {
         stage.setScene(scene);
         stage.show();
         //hello
+        //from netbeans
     }
 
     /**
