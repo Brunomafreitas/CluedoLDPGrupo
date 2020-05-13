@@ -10,5 +10,7 @@ package clue;
  * @author senho
  */
 public class Posicao {
-    
+    public static void main(String[] args) {
+        
+    }
 }
