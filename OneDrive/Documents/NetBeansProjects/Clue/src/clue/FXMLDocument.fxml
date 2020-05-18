@@ -7,9 +7,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="854.0" prefWidth="1217.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clue.FXMLDocumentController">
+<AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="854.0" prefWidth="1217.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clue.FXMLDocumentController">
     <children>
-      <ImageView fitHeight="847.0" fitWidth="991.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="5.0">
+      <ImageView fx:id="tabuleiro" fitHeight="847.0" fitWidth="991.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="5.0">
          <image>
             <Image url="@../../build/classes/clue/cluedo.jpg" />
          </image>

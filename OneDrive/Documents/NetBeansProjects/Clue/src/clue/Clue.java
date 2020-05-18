@@ -34,7 +34,7 @@ public class Clue extends Application {
      */
     public static void main(String[] args) {
         launch(args);
-        system.out.print("Teste 1 dois roger man");
+        System.out.print("Teste 1 dois roger man");
     }
     
 }
