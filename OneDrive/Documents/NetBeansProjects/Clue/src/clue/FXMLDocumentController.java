@@ -14,6 +14,7 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 
@@ -26,12 +27,15 @@ public class FXMLDocumentController implements Initializable {
     Image img;
     @FXML
     private Label label;
+    @FXML
+    private Button button4;
     
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
         System.out.println("Boas");
         System.out.println("");
+        
     }
    
     
