@@ -29,8 +29,6 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private Label label;
     @FXML
-    private Button button4;
-    @FXML
     private ImageView tabuleiro;
     @FXML
     private AnchorPane anchor;
@@ -40,9 +38,9 @@ public class FXMLDocumentController implements Initializable {
         label.setText("Hello World!");
         System.out.println("Boas");
         System.out.println("");
-        Image img;
+        /*Image img;
         img = new Image("../cluedo.jpg");
-        tabuleiro.setImage(img);
+        tabuleiro.setImage(img);*/
     }
    
     

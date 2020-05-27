@@ -9,45 +9,12 @@
 
 <AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="854.0" prefWidth="1217.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clue.FXMLDocumentController">
     <children>
-      <ImageView fx:id="tabuleiro" fitHeight="847.0" fitWidth="991.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="5.0">
+      <ImageView fx:id="tabuleiro" fitHeight="877.0" fitWidth="856.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-21.0" AnchorPane.leftAnchor="-2.0" AnchorPane.topAnchor="-1.0">
          <image>
             <Image url="@../../build/classes/clue/cluedo.jpg" />
          </image>
       </ImageView>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <ImageView fitHeight="854.0" fitWidth="362.0" layoutX="854.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
-      <Button fx:id="button4" ellipsisString="" layoutX="272.0" layoutY="77.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="302.0" layoutY="77.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="332.0" layoutY="77.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="332.0" layoutY="46.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="242.0" layoutY="105.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="272.0" layoutY="105.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="242.0" layoutY="136.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="272.0" layoutY="167.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="242.0" layoutY="167.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="272.0" layoutY="198.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="242.0" layoutY="198.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="272.0" layoutY="229.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="242.0" layoutY="229.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="272.0" layoutY="260.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="242.0" layoutY="260.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="272.0" layoutY="291.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="242.0" layoutY="291.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="272.0" layoutY="322.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="242.0" layoutY="322.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="212.0" layoutY="260.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="182.0" layoutY="260.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="212.0" layoutY="291.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="182.0" layoutY="291.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="149.0" layoutY="260.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="119.0" layoutY="260.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="149.0" layoutY="291.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="119.0" layoutY="291.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="89.0" layoutY="260.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="59.0" layoutY="260.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="89.0" layoutY="291.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="212.0" layoutY="322.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="272.0" layoutY="136.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
-      <Button ellipsisString="" layoutX="180.0" layoutY="214.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" />
     </children>
 </AnchorPane>
