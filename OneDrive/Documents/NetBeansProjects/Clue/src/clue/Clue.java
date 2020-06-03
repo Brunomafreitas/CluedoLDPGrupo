@@ -5,10 +5,13 @@
  */
 package clue;
 
+import java.awt.Color;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.Ellipse;
 import javafx.stage.Stage;
 
 /**
@@ -20,13 +23,13 @@ public class Clue extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
+       
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
         stage.show();
-        //hello
-        //from netbeans
+      
+               
     }
 
     /**

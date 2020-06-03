@@ -9,12 +9,7 @@
 
 <AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="854.0" prefWidth="1217.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clue.FXMLDocumentController">
     <children>
-      <ImageView fx:id="tabuleiro" fitHeight="877.0" fitWidth="856.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-21.0" AnchorPane.leftAnchor="-2.0" AnchorPane.topAnchor="-1.0">
-         <image>
-            <Image url="@../../build/classes/clue/cluedo.jpg" />
-         </image>
-      </ImageView>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <ImageView fitHeight="854.0" fitWidth="362.0" layoutX="854.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="854.0" fitWidth="362.0" layoutX="502.0" layoutY="-436.0" pickOnBounds="true" preserveRatio="true" />
     </children>
 </AnchorPane>

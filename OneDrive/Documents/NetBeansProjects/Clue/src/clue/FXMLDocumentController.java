@@ -18,6 +18,14 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.*;
+import javafx.scene.*;
+import javafx.scene.paint.*;
+import javafx.scene.effect.*;
+import javafx.scene.shape.*;
+import javafx.scene.input.*;
+import java.lang.*;
+import java.util.*;
 
 /**
  *
@@ -41,10 +49,11 @@ public class FXMLDocumentController implements Initializable {
         /*Image img;
         img = new Image("../cluedo.jpg");
         tabuleiro.setImage(img);*/
+        
     }
    
     
-    
+     
 
     
     @Override
