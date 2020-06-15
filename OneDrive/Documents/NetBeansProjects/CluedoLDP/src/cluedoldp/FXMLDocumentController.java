@@ -10,10 +10,14 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-
+import javafx.scene.paint.Color;
+import javafx.scene.*;
+import javafx.scene.paint.*;
+import javafx.scene.canvas.*;
 /**
  *
  * @author senho
@@ -22,8 +26,8 @@ public class FXMLDocumentController implements Initializable {
     
     @FXML
     private Label label;
-    Image img;
-    private ImageView ivImagem;
+    Group root = new Group();
+    Scene s = new Scene(root, 300, 300, Color.BLACK);
     @FXML
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
@@ -32,8 +36,8 @@ public class FXMLDocumentController implements Initializable {
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        img = new Image( getClass().getResource("tabuleiroCluedo.png").toExternalForm() );
-        ivImagem.setImage(img);
+           
     }    
-    
+    private void desenha(){
+    }
 }
